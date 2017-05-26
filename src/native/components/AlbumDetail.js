@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 const AlbumDetail = (props) => {
-    return (<View>
+    return (
        <Text> {props.album.title} </ Text>
     </View>);
 };
