@@ -15,7 +15,10 @@ constructor() {
                     albums: response.data
                 });
             })
-            .catch(error => { console.log('error', error); });
+            .catch(error => { 
+                console.log('error', error);
+               // alert('error', error); 
+            });
     }
 
 }
